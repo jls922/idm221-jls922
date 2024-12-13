@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Kanit;
+    src: url(../fonts/Kanit/Kanit-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: Merriweather;
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+  }
+
 * {
     box-sizing: border-box;
   }
@@ -41,18 +51,19 @@ html {
 
 a {
     color: var(--link-light);
+    font-family: Kanit;
 }
 
 body {
     /*margin: 25px;*/
     text-align: center;
-    font-family: sans-serif;
     margin-top: var(--nav-margin);
     color: var(--text-light);
 }
 
 h1,h2,h3 {
     margin-block-start: var(--rhythm);
+    font-family: Kanit;
 }
 
 main {
@@ -61,6 +72,7 @@ main {
 
 p {
     margin: var(--rhythm) 0 0 0;
+    font-family: Merriweather;
 }
 
 img {
@@ -118,7 +130,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-  }
+}
 
 /* From the menu example code in class with modification to fit into site */
 header {
@@ -190,6 +202,7 @@ nav {
           padding-block: 1rem;
           padding-inline: 1rem;
           text-decoration: none;
+          font-family: Kanit;
   
           &:hover {
             background-color: var(--nav-a-hover-bg-color);
